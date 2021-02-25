@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unsika-ON</title>
+        <link rel="shortcut icon" href="assets/images/logonew.png">
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header class="sticky">
+                <ul>
+                    <li><img src="assets/images/logo.png" alt="Logo"></li>
+                    <li><a href="#daftar" class="active">Masuk</a></li>
+                    <li><a href="#tentangkami">Tentang Kami</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                        <div class="dropdown">
+                            <li><a class="dropbtn" onclick="myFunction()">Kegiatan<i class="fa fa-caret-down"></i></a></li>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="#seminar">Seminar</a>
+                                <a href="#">Kegiatan Ormawa</a>
+                                <a href="#">Lomba</a>
+                            </div>
+                        </div>
+                    <li><a href="#beranda">Beranda</a></li>
+                </ul>
+        </header>
+        <main>
+            <div class="container">
+                <div class="header-left">
+                    <img src="assets/images/header.png" alt="Header Image">
+                </div>
+                <div class="header-right">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="judul">Unsika<b>-ON</b><br></p>
+                    <p class="tagline">"Event and Campus Activities Become Easier"</p>
+                </span>
+                </div>
+            </div>
+            <div id="content">
+                <div id="beranda" class="card2 flex-container clearfix">
+                    <h2>Fitur Kami</h2>
+                    <div class="flex-row">
+                        <section class="bgmaroon">
+                            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48ZyBpZD0iQ2FsZW5kYXIiPjxwYXRoIGQ9Ik01Nyw4SDUyVjZhNCw0LDAsMCwwLTgsMFY4SDM2VjZhNCw0LDAsMCwwLTgsMFY4SDIwVjZhNCw0LDAsMCwwLTgsMFY4SDdhNSw1LDAsMCwwLTUsNVY1M2E1LDUsMCwwLDAsNSw1SDM1YTEsMSwwLDAsMCwwLTJIN2EzLjAwOSwzLjAwOSwwLDAsMS0zLTNWMjJINjBWMzlhMSwxLDAsMCwwLDIsMFYxM0E1LDUsMCwwLDAsNTcsOFpNNDYsNmEyLDIsMCwwLDEsNCwwdjZhMiwyLDAsMCwxLTQsMFpNMzAsNmEyLDIsMCwwLDEsNCwwdjZhMiwyLDAsMCwxLTQsMFpNMTQsNmEyLDIsMCwwLDEsNCwwdjZhMiwyLDAsMCwxLTQsMFpNNjAsMjBINFYxM2EzLjAwOSwzLjAwOSwwLDAsMSwzLTNoNXYyYTQsNCwwLDAsMCw4LDBWMTBoOHYyYTQsNCwwLDAsMCw4LDBWMTBoOHYyYTQsNCwwLDAsMCw4LDBWMTBoNWEzLjAwOSwzLjAwOSwwLDAsMSwzLDNaIi8+PHBhdGggZD0iTTMwLDI5YTIsMiwwLDAsMC0yLTJIMjRhMiwyLDAsMCwwLTIsMnYzYTIsMiwwLDAsMCwyLDJoNGEyLDIsMCwwLDAsMi0yWm0tNiwzVjI5aDR2M1oiLz48cGF0aCBkPSJNMTgsMjlhMiwyLDAsMCwwLTItMkgxMmEyLDIsMCwwLDAtMiwydjNhMiwyLDAsMCwwLDIsMmg0YTIsMiwwLDAsMCwyLTJabS02LDNWMjloNHYzWiIvPjxwYXRoIGQ9Ik01MiwzNGEyLDIsMCwwLDAsMi0yVjI5YTIsMiwwLDAsMC0yLTJINDhhMiwyLDAsMCwwLTIsMnYzYTIsMiwwLDAsMCwyLDJabS00LTVoNHYzSDQ4WiIvPjxwYXRoIGQ9Ik0zMCwzOGEyLDIsMCwwLDAtMi0ySDI0YTIsMiwwLDAsMC0yLDJ2M2EyLDIsMCwwLDAsMiwyaDRhMiwyLDAsMCwwLDItMlptLTYsM1YzOGg0djNaIi8+PHBhdGggZD0iTTE4LDM4YTIsMiwwLDAsMC0yLTJIMTJhMiwyLDAsMCwwLTIsMnYzYTIsMiwwLDAsMCwyLDJoNGEyLDIsMCwwLDAsMi0yWm0tNiwzVjM4aDR2M1oiLz48cGF0aCBkPSJNMjgsNDVIMjRhMiwyLDAsMCwwLTIsMnYzYTIsMiwwLDAsMCwyLDJoNGEyLDIsMCwwLDAsMi0yVjQ3QTIsMiwwLDAsMCwyOCw0NVptLTQsNVY0N2g0djNaIi8+PHBhdGggZD0iTTM2LDM0aDRhMiwyLDAsMCwwLDItMlYyOWEyLDIsMCwwLDAtMi0ySDM2YTIsMiwwLDAsMC0yLDJ2M0EyLDIsMCwwLDAsMzYsMzRabTAtNWg0djNIMzZaIi8+PHBhdGggZD0iTTM0LDQxYTIsMiwwLDAsMCwyLDIsMSwxLDAsMCwwLDAtMlYzOGg0YTEsMSwwLDAsMCwwLTJIMzZhMiwyLDAsMCwwLTIsMloiLz48cGF0aCBkPSJNMTYsNDVIMTJhMiwyLDAsMCwwLTIsMnYzYTIsMiwwLDAsMCwyLDJoNGEyLDIsMCwwLDAsMi0yVjQ3QTIsMiwwLDAsMCwxNiw0NVptLTQsNVY0N2g0djNaIi8+PHBhdGggZD0iTTQ5LDM2QTEzLDEzLDAsMSwwLDYyLDQ5LDEzLjAxNSwxMy4wMTUsMCwwLDAsNDksMzZabTAsMjRBMTEsMTEsMCwxLDEsNjAsNDksMTEuMDEzLDExLjAxMywwLDAsMSw0OSw2MFoiLz48cGF0aCBkPSJNNTQuNzc4LDQ0LjgwOCw0Nyw1Mi41ODYsNDMuNDY1LDQ5LjA1YTEsMSwwLDAsMC0xLjQxNCwxLjQxNGw0LjI0Miw0LjI0M2ExLDEsMCwwLDAsMS40MTQsMGw4LjQ4NS04LjQ4NWExLDEsMCwwLDAtMS40MTQtMS40MTRaIi8+PC9nPjwvc3ZnPgo=" width="25%"/>
+                            <h3>Posting Event</h3>
+                            <p>Posting dan deskripsikan event atau kegiatan kampusmu, nikmati jangkauan peserta yang lebih luas.</p>
+                        </section>
+                        <section class="bgmaroon">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iX3gzMV8iIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xMS44OTQgMjRjLS4xMzEgMC0uMjU5LS4wNTItLjM1NC0uMTQ2LS4xMTgtLjExOC0uMTctLjI4OC0uMTM3LS40NTFsLjcwNy0zLjUzNWMuMDItLjA5OC4wNjYtLjE4Ny4xMzctLjI1Nmw3Ljc3OC03Ljc3OGMuNTg0LS41ODQgMS41MzctLjU4NCAyLjEyMSAwbDEuNDE0IDEuNDE0Yy41ODUuNTg1LjU4NSAxLjUzNiAwIDIuMTIxbC03Ljc3OCA3Ljc3OGMtLjA2OS4wNy0uMTU4LjExNy0uMjU2LjEzN2wtMy41MzUuNzA3Yy0uMDMyLjAwNi0uMDY1LjAwOS0uMDk3LjAwOXptMS4xNjgtMy43ODktLjUzIDIuNjUxIDIuNjUxLS41MyA3LjY3MS03LjY3MWMuMTk1LS4xOTUuMTk1LS41MTIgMC0uNzA3bC0xLjQxNC0xLjQxNGMtLjE5NS0uMTk1LS41MTItLjE5NS0uNzA3IDB6bTIuMzY3IDIuNTgyaC4wMXoiLz48cGF0aCBkPSJtOS41IDIxaC03Yy0xLjM3OSAwLTIuNS0xLjEyMS0yLjUtMi41di0xM2MwLTEuMzc5IDEuMTIxLTIuNSAyLjUtMi41aDJjLjI3NiAwIC41LjIyNC41LjVzLS4yMjQuNS0uNS41aC0yYy0uODI3IDAtMS41LjY3My0xLjUgMS41djEzYzAgLjgyNy42NzMgMS41IDEuNSAxLjVoN2MuMjc2IDAgLjUuMjI0LjUuNXMtLjIyNC41LS41LjV6Ii8+PHBhdGggZD0ibTE2LjUgMTJjLS4yNzYgMC0uNS0uMjI0LS41LS41di02YzAtLjgyNy0uNjczLTEuNS0xLjUtMS41aC0yYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXMuMjI0LS41LjUtLjVoMmMxLjM3OSAwIDIuNSAxLjEyMSAyLjUgMi41djZjMCAuMjc2LS4yMjQuNS0uNS41eiIvPjxwYXRoIGQ9Im0xMS41IDZoLTZjLS44MjcgMC0xLjUtLjY3My0xLjUtMS41di0yYzAtLjI3Ni4yMjQtLjUuNS0uNWgxLjU1Yy4yMzItMS4xNCAxLjI0My0yIDIuNDUtMnMyLjIxOC44NiAyLjQ1IDJoMS41NWMuMjc2IDAgLjUuMjI0LjUuNXYyYzAgLjgyNy0uNjczIDEuNS0xLjUgMS41em0tNi41LTN2MS41YzAgLjI3NS4yMjUuNS41LjVoNmMuMjc1IDAgLjUtLjIyNS41LS41di0xLjVoLTEuNWMtLjI3NiAwLS41LS4yMjQtLjUtLjUgMC0uODI3LS42NzMtMS41LTEuNS0xLjVzLTEuNS42NzMtMS41IDEuNWMwIC4yNzYtLjIyNC41LS41LjV6Ii8+PHBhdGggZD0ibTEzLjUgOWgtMTBjLS4yNzYgMC0uNS0uMjI0LS41LS41cy4yMjQtLjUuNS0uNWgxMGMuMjc2IDAgLjUuMjI0LjUuNXMtLjIyNC41LS41LjV6Ii8+PHBhdGggZD0ibTEzLjUgMTJoLTEwYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXMuMjI0LS41LjUtLjVoMTBjLjI3NiAwIC41LjIyNC41LjVzLS4yMjQuNS0uNS41eiIvPjxwYXRoIGQ9Im0xMy41IDE1aC0xMGMtLjI3NiAwLS41LS4yMjQtLjUtLjVzLjIyNC0uNS41LS41aDEwYy4yNzYgMCAuNS4yMjQuNS41cy0uMjI0LjUtLjUuNXoiLz48L3N2Zz4=" width="25%"/>
+                            <h3>Pendaftaran Event</h3>
+                            <p>Kamu dapat mengatur pendaftaran event langsung di website, peserta akan lebih mudah untuk mengikuti eventmu.</p>
+                        </section>
+                        <section class="bgmaroon">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC0yMCA1MTIgNTExIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im02Ny4xNzk2ODggNDguMzk0NTMxaC0uMTAxNTYzYy01LjUyMzQzNyAwLTEwIDQuNDc2NTYzLTEwIDEwIDAgNS41MjM0MzggNC40NzY1NjMgMTAgMTAgMTBoLjEwMTU2M2M1LjUyMzQzNyAwIDEwLTQuNDc2NTYyIDEwLTEwIDAtNS41MjM0MzctNC40NzY1NjMtMTAtMTAtMTB6bTAgMCIvPjxwYXRoIGQ9Im0xMTYuNzEwOTM4IDQ4LjM5NDUzMWgtLjEwMTU2M2MtNS41MjM0MzcgMC0xMCA0LjQ3NjU2My0xMCAxMCAwIDUuNTIzNDM4IDQuNDc2NTYzIDEwIDEwIDEwaC4xMDE1NjNjNS41MjM0MzcgMCAxMC00LjQ3NjU2MiAxMC0xMCAwLTUuNTIzNDM3LTQuNDc2NTYzLTEwLTEwLTEwem0wIDAiLz48cGF0aCBkPSJtMTY2LjI0MjE4OCA0OC4zOTQ1MzFoLS4xMDE1NjNjLTUuNTIzNDM3IDAtMTAgNC40NzY1NjMtMTAgMTAgMCA1LjUyMzQzOCA0LjQ3NjU2MyAxMCAxMCAxMGguMTAxNTYzYzUuNTIzNDM3IDAgMTAtNC40NzY1NjIgMTAtMTAgMC01LjUyMzQzNy00LjQ3NjU2My0xMC0xMC0xMHptMCAwIi8+PHBhdGggZD0ibTQ0NC4zMDg1OTQgNDguMzk0NTMxaC0xOTIuOTI5Njg4Yy01LjUyMzQzNyAwLTEwIDQuNDc2NTYzLTEwIDEwIDAgNS41MTk1MzEgNC40NzY1NjMgMTAgMTAgMTBoMTkyLjkyOTY4OGM1LjUyMzQzNyAwIDEwLTQuNDgwNDY5IDEwLTEwIDAtNS41MjM0MzctNC40NzY1NjMtMTAtMTAtMTB6bTAgMCIvPjxwYXRoIGQ9Im0yNjIuODkwNjI1IDQ1Mi40Mzc1Yy0yLjYyODkwNiAwLTUuMTk5MjE5IDEuMDcwMzEyLTcuMDcwMzEzIDIuOTI5Njg4LTEuODU5Mzc0IDEuODU5Mzc0LTIuOTI5Njg3IDQuNDQxNDA2LTIuOTI5Njg3IDcuMDcwMzEyczEuMDcwMzEzIDUuMjEwOTM4IDIuOTI5Njg3IDcuMDcwMzEyYzEuODcxMDk0IDEuODU5Mzc2IDQuNDQxNDA3IDIuOTI5Njg4IDcuMDcwMzEzIDIuOTI5Njg4czUuMjEwOTM3LTEuMDcwMzEyIDcuMDcwMzEzLTIuOTI5Njg4YzEuODY3MTg3LTEuODU5Mzc0IDIuOTI5Njg3LTQuNDQxNDA2IDIuOTI5Njg3LTcuMDcwMzEycy0xLjA2MjUtNS4yMTA5MzgtMi45Mjk2ODctNy4wNzAzMTJjLTEuODU5Mzc2LTEuODU5Mzc2LTQuNDQxNDA3LTIuOTI5Njg4LTcuMDcwMzEzLTIuOTI5Njg4em0wIDAiLz48cGF0aCBkPSJtNDgwLjIzMDQ2OS41aC00NDguNDYwOTM4Yy0xNy41MTU2MjUgMC0zMS43Njk1MzEgMTQuMjUzOTA2LTMxLjc2OTUzMSAzMS43Njk1MzF2NDA4LjM5ODQzOGMwIDE3LjUxOTUzMSAxNC4yNTM5MDYgMzEuNzY5NTMxIDMxLjc2OTUzMSAzMS43Njk1MzFoMTg5LjIzMDQ2OWM1LjUyMzQzOCAwIDEwLTQuNDc2NTYyIDEwLTEwcy00LjQ3NjU2Mi0xMC0xMC0xMGgtMTg5LjIzMDQ2OWMtNi40ODgyODEgMC0xMS43Njk1MzEtNS4yNzczNDQtMTEuNzY5NTMxLTExLjc2OTUzMXYtMzI0LjM3ODkwN2g0NzJ2MzI0LjM3ODkwN2MwIDYuNDg4MjgxLTUuMjgxMjUgMTEuNzY5NTMxLTExLjc2OTUzMSAxMS43Njk1MzFoLTE3Ni41NjI1Yy01LjUyMzQzOCAwLTEwIDQuNDc2NTYyLTEwIDEwczQuNDc2NTYyIDEwIDEwIDEwaDE3Ni41NjI1YzE3LjUxNTYyNSAwIDMxLjc2OTUzMS0xNC4yNSAzMS43Njk1MzEtMzEuNzY5NTMxdi00MDguMzk4NDM4YzAtMTcuNTE1NjI1LTE0LjI1MzkwNi0zMS43Njk1MzEtMzEuNzY5NTMxLTMxLjc2OTUzMXptLTQ2MC4yMzA0NjkgOTUuNzg1MTU2di02NC4wMTU2MjVjMC02LjQ4ODI4MSA1LjI4MTI1LTExLjc2OTUzMSAxMS43Njk1MzEtMTEuNzY5NTMxaDQ0OC40NjA5MzhjNi40ODgyODEgMCAxMS43Njk1MzEgNS4yODEyNSAxMS43Njk1MzEgMTEuNzY5NTMxdjY0LjAxOTUzMWgtNDcyem0wIDAiLz48cGF0aCBkPSJtMTc4LjAzOTA2MiAyMzAuNWMwLTE5Ljg1MTU2Mi0xNi4xNDg0MzctMzYtMzYtMzZoLTMzLjY2Nzk2OGMtNS41MjM0MzggMC0xMCA0LjQ3NjU2Mi0xMCAxMHYxMDRjMCA1LjUyMzQzOCA0LjQ3NjU2MiAxMCAxMCAxMGgzMy42Njc5NjhjMTkuODUxNTYzIDAgMzYtMTYuMTQ4NDM4IDM2LTM2IDAtMTAuMjE0ODQ0LTQuMjgxMjUtMTkuNDQxNDA2LTExLjE0MDYyNC0yNiA2Ljg1OTM3NC02LjU1ODU5NCAxMS4xNDA2MjQtMTUuNzg1MTU2IDExLjE0MDYyNC0yNnptLTIwIDUyYzAgOC44MjAzMTItNy4xNzk2ODcgMTYtMTYgMTZoLTIzLjY2Nzk2OHYtMzJoMjMuNjY3OTY4YzguODIwMzEzIDAgMTYgNy4xNzU3ODEgMTYgMTZ6bS0zOS42Njc5NjgtMzZ2LTMyaDIzLjY2Nzk2OGM4LjgyNDIxOSAwIDE2IDcuMTc5Njg4IDE2IDE2cy03LjE3NTc4MSAxNi0xNiAxNnptMCAwIi8+PHBhdGggZD0ibTIwNi42NDg0MzggMTk0LjVjLTUuNTIzNDM4IDAtMTAgNC40NzY1NjItMTAgMTB2ODAuODcxMDk0YzAgMTguMjY5NTMxIDE0Ljg2MzI4MSAzMy4xMjg5MDYgMzMuMTI4OTA2IDMzLjEyODkwNiA1LjUyMzQzNyAwIDEwLTQuNDc2NTYyIDEwLTEwcy00LjQ3NjU2My0xMC0xMC0xMGMtNy4yMzgyODIgMC0xMy4xMjg5MDYtNS44OTA2MjUtMTMuMTI4OTA2LTEzLjEyODkwNnYtODAuODcxMDk0YzAtNS41MjM0MzgtNC40NzY1NjMtMTAtMTAtMTB6bTAgMCIvPjxwYXRoIGQ9Im0zMjQuODY3MTg4IDI4Mi4yODkwNjJjMC0xOS45Njg3NS0xNi4yNDIxODgtMzYuMjE0ODQzLTM2LjIxMDkzOC0zNi4yMTQ4NDNzLTM2LjIxMDkzOCAxNi4yNDYwOTMtMzYuMjEwOTM4IDM2LjIxNDg0MyAxNi4yNDYwOTQgMzYuMjEwOTM4IDM2LjIxMDkzOCAzNi4yMTA5MzhjMTkuOTY4NzUgMCAzNi4yMTA5MzgtMTYuMjQyMTg4IDM2LjIxMDkzOC0zNi4yMTA5Mzh6bS01Mi40MjE4NzYgMGMwLTguOTQxNDA2IDcuMjczNDM4LTE2LjIxNDg0MyAxNi4yMTA5MzgtMTYuMjE0ODQzczE2LjIxMDkzOCA3LjI3MzQzNyAxNi4yMTA5MzggMTYuMjE0ODQzYzAgOC45Mzc1LTcuMjY5NTMyIDE2LjIxMDkzOC0xNi4yMTA5MzggMTYuMjEwOTM4cy0xNi4yMTA5MzgtNy4yNzM0MzgtMTYuMjEwOTM4LTE2LjIxMDkzOHptMCAwIi8+PHBhdGggZD0ibTM3Ny40MTQwNjIgMzQ2LjVjLTguOTM3NSAwLTE2LjIxMDkzNy03LjI3MzQzOC0xNi4yMTA5MzctMTYuMjEwOTM4IDAtNS41MjM0MzctNC40NzY1NjMtMTAtMTAtMTBzLTEwIDQuNDc2NTYzLTEwIDEwYzAgMTkuOTY4NzUgMTYuMjQ2MDk0IDM2LjIxMDkzOCAzNi4yMTA5MzcgMzYuMjEwOTM4IDE5Ljk2ODc1IDAgMzYuMjE0ODQ0LTE2LjI0MjE4OCAzNi4yMTQ4NDQtMzYuMjEwOTM4di00OGMwLTE5Ljk2ODc1LTE2LjI0NjA5NC0zNi4yMTQ4NDMtMzYuMjE0ODQ0LTM2LjIxNDg0My0xOS45NjQ4NDMgMC0zNi4yMTA5MzcgMTYuMjQ2MDkzLTM2LjIxMDkzNyAzNi4yMTQ4NDNzMTYuMjQ2MDk0IDM2LjIxMDkzOCAzNi4yMTA5MzcgMzYuMjEwOTM4YzUuODI4MTI2IDAgMTEuMzMyMDMyLTEuMzkwNjI1IDE2LjIxNDg0NC0zLjg0NzY1NnYxNS42MzY3MThjMCA4LjkzNzUtNy4yNzM0MzcgMTYuMjEwOTM4LTE2LjIxNDg0NCAxNi4yMTA5Mzh6bTAtNDhjLTguOTM3NSAwLTE2LjIxMDkzNy03LjI3MzQzOC0xNi4yMTA5MzctMTYuMjEwOTM4IDAtOC45NDE0MDYgNy4yNzM0MzctMTYuMjE0ODQzIDE2LjIxMDkzNy0xNi4yMTQ4NDMgOC45NDE0MDcgMCAxNi4yMTQ4NDQgNy4yNzM0MzcgMTYuMjE0ODQ0IDE2LjIxNDg0MyAwIDguOTM3NS03LjI3MzQzNyAxNi4yMTA5MzgtMTYuMjE0ODQ0IDE2LjIxMDkzOHptMCAwIi8+PHBhdGggZD0ibTEwOC4zNzEwOTQgNDE2LjVoMjk1LjI1NzgxMmM1LjUyMzQzOCAwIDEwLTQuNDc2NTYyIDEwLTEwcy00LjQ3NjU2Mi0xMC0xMC0xMGgtMjk1LjI1NzgxMmMtNS41MTk1MzIgMC0xMCA0LjQ3NjU2Mi0xMCAxMHM0LjQ4MDQ2OCAxMCAxMCAxMHptMCAwIi8+PC9zdmc+" width="25%"/>
+                            <h3>Blog Bagi Mahasiswa</h3>
+                            <p>Terdapat portal blog bagi mahasiswa untuk berbagi ilmu pengetahuan hingga kehidupan kampus.</p>
+                        </section>
+                        <section class="bgmaroon">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTI3Ny4yNiA0MTIuNjg3YzUuMjc1IDUuMjY4IDEyLjE5OSA3LjkwMSAxOS4xMjQgNy45MDFzMTMuODUxLTIuNjM1IDE5LjEyLTcuOTA0bDk3LjE4LTk3LjE4YzEwLjUzOC0xMC41MzggMTAuNTQtMjcuNjkzIDAtMzguMjQ2bC02Mi45NjItNjIuOTYyIDE4LjQ4Mi0xOC40ODJjMi45MjktMi45MjkgMi45MjktNy42NzcgMC0xMC42MDZzLTcuNjc4LTIuOTI5LTEwLjYwNiAwbC0yMTguOTEgMjE4LjkxYy0xLjU0OSAxLjU0OS0yLjM0MyAzLjY5Ny0yLjE3NCA1Ljg4LjE2OCAyLjE4NCAxLjI4MyA0LjE4NCAzLjA1MSA1LjQ3NyAzMy45NjcgMjQuODM3IDc0LjIzIDM3Ljk2NiAxMTYuNDM3IDM3Ljk2NiAxMDguODY5IDAgMTk3LjQ0LTg4LjU3MSAxOTcuNDQtMTk3LjQ0IDAtNDIuMjA2LTEzLjEyOC04Mi40NjktMzcuOTY2LTExNi40MzctMS4yOTItMS43NjgtMy4yOTMtMi44ODMtNS40NzctMy4wNTEtMi4xODgtLjE3LTQuMzMyLjYyNi01Ljg4IDIuMTc1bC0yNS41NCAyNS41NGMtMi45MjkgMi45MjktMi45MjkgNy42NzcgMCAxMC42MDZzNy42NzggMi45MjkgMTAuNjA2IDBsMTkuMjAxLTE5LjIwMWMxOS42OTEgMjkuOCAzMC4wNTYgNjQuMzE2IDMwLjA1NiAxMDAuMzY4IDAgMTAwLjU5OC04MS44NDIgMTgyLjQ0LTE4Mi40NCAxODIuNDQtMzYuMDUyIDAtNzAuNTY3LTEwLjM2NS0xMDAuMzY3LTMwLjA1Nmw1OC42NjItNTguNjYyem0yNy42MzctMTAuNjExYy00LjY5MyA0LjY5My0xMi4zMzYgNC42OTItMTcuMDM0IDBsLTE5Ljk5LTE5Ljk5YzguMjMtNi4wMjYgMTguMTItOS4yODYgMjguNTEzLTkuMjg2IDEwLjM5LjAwMSAyMC4yNzcgMy4yNTkgMjguNTA1IDkuMjgyem05Ny4xOC05Ny4xNzktMTkuOTk0IDE5Ljk5NGMtNi4wMjMtOC4yMjgtOS4yODEtMTguMTE1LTkuMjgxLTI4LjUwNiAwLTEwLjM5MyAzLjI1OS0yMC4yODMgOS4yODQtMjguNTExbDE5Ljk4NyAxOS45ODdjNC42OTUgNC43IDQuNjk3IDEyLjM0My4wMDQgMTcuMDM2em0tMzAuNjg2LTQ3LjcyYy04Ljc5OSAxMS4xMzMtMTMuNTg4IDI0Ljc5OC0xMy41ODggMzkuMjA3IDAgMTQuNDA3IDQuNzg4IDI4LjA3IDEzLjU4NSAzOS4yMDJsLTM1LjggMzUuOGMtMTEuMTMzLTguNzk3LTI0Ljc5NS0xMy41ODYtMzkuMi0xMy41ODYtLjAwMSAwLS4wMDIgMC0uMDAzIDAtMTQuNDA4IDAtMjguMDczIDQuNzktMzkuMjA3IDEzLjU5bC0zMi4yNzYtMzIuMjc1IDE1LjU5My0xNS41OTNjNS4xNDYgMS4xOCAxMC4zNDcgMS43NjYgMTUuNTE0IDEuNzY2IDE4LjExNC0uMDAxIDM1Ljc4Ni03LjEwOSA0OC45NzMtMjAuMzAzIDE2Ljk2My0xNi45NTMgMjMuODYzLTQxLjMwNiAxOC41NDQtNjQuNDk1bDE1LjU4OS0xNS41ODl6bS03Ny4wMTYgMzcuMjAxYy0xMC44NzIgMTAuODc4LTI1LjYyOSAxNi40NjYtNDAuNTkyIDE1Ljg1NWw1Ni40NS01Ni40NWMuNjEyIDE0Ljk2NC00Ljk3OCAyOS43MjItMTUuODU4IDQwLjU5NXoiLz48cGF0aCBkPSJtNDM3LjAxOSA3NC45ODJjLTQ4LjM1My00OC4zNTMtMTEyLjY0LTc0Ljk4Mi0xODEuMDE5LTc0Ljk4MnMtMTMyLjY2NiAyNi42MjktMTgxLjAxOSA3NC45ODJjLTQ4LjM1MiA0OC4zNTItNzQuOTgxIDExMi42MzktNzQuOTgxIDE4MS4wMTggMCAyOC42NzIgNC43MDQgNTYuODEgMTMuOTgyIDgzLjYzMiAxLjM1NCAzLjkxNSA1LjYyNiA1Ljk5IDkuNTQgNC42MzYgMy45MTUtMS4zNTQgNS45OS01LjYyNSA0LjYzNi05LjU0LTguNzMxLTI1LjI0LTEzLjE1OC01MS43MjgtMTMuMTU4LTc4LjcyOCAwLTY0LjM3MiAyNS4wNjktMTI0Ljg5MiA3MC41ODgtMTcwLjQxMnMxMDYuMDQtNzAuNTg4IDE3MC40MTItNzAuNTg4IDEyNC44OTIgMjUuMDY5IDE3MC40MTIgNzAuNTg4IDcwLjU4OCAxMDYuMDQgNzAuNTg4IDE3MC40MTItMjUuMDY5IDEyNC44OTItNzAuNTg4IDE3MC40MTItMTA2LjA0IDcwLjU4OC0xNzAuNDEyIDcwLjU4OGMtNDYuMDI1IDAtOTAuNzY2LTEzLjAxNy0xMjkuMzg2LTM3LjY0NS0zNy42MDgtMjMuOTgyLTY3LjgwNC01Ny44MDItODcuMzI0LTk3LjgwNC0xLjgxNy0zLjcyMy02LjMwOC01LjI2OC0xMC4wMjktMy40NTEtMy43MjMgMS44MTYtNS4yNjggNi4zMDctMy40NTEgMTAuMDI5IDIwLjczMiA0Mi40ODYgNTIuODAxIDc4LjQwNSA5Mi43MzkgMTAzLjg3MyA0MS4wMzQgMjYuMTY3IDg4LjU2MyAzOS45OTggMTM3LjQ1MSAzOS45OTggNjguMzc5IDAgMTMyLjY2Ni0yNi42MjkgMTgxLjAxOS03NC45ODIgNDguMzUyLTQ4LjM1MiA3NC45ODEtMTEyLjYzOSA3NC45ODEtMTgxLjAxOHMtMjYuNjI5LTEzMi42NjYtNzQuOTgxLTE4MS4wMTh6Ii8+PHBhdGggZD0ibTM3Mi40MzcgOTYuNTI2Yy0zMy45NjgtMjQuODM4LTc0LjIzMS0zNy45NjYtMTE2LjQzNy0zNy45NjYtMTA4Ljg2OSAwLTE5Ny40NCA4OC41NzEtMTk3LjQ0IDE5Ny40NCAwIDQyLjIwNiAxMy4xMjggODIuNDY5IDM3Ljk2NiAxMTYuNDM3IDEuMjkyIDEuNzY4IDMuMjkzIDIuODgzIDUuNDc3IDMuMDUxLjE5My4wMTUuMzg2LjAyMi41NzguMDIyIDEuOTgxIDAgMy44OTEtLjc4NSA1LjMwMy0yLjE5N2wyNjUuNDMtMjY1LjQzYzEuNTQ5LTEuNTQ5IDIuMzQzLTMuNjk3IDIuMTc0LTUuODgtLjE2OS0yLjE4NC0xLjI4My00LjE4NC0zLjA1MS01LjQ3N3ptLTI0Mi41MjEgOTAuNTg1YzEyLjM0NSAxNi45MTkgMTIuMzQ0IDQwLjA5Ny0uMDAzIDU3LjAxNGwtMTkuOTg1LTE5Ljk4NWMtNC42OTUtNC43MDEtNC42OTYtMTIuMzQ0LS4wMDMtMTcuMDM3em0xMC42OTQtMTAuNjk1IDM1LjgwMy0zNS44MDNjMTEuMTMzIDguNzk3IDI0Ljc5NSAxMy41ODUgMzkuMjAyIDEzLjU4NSAxNC40MDkgMCAyOC4wNzQtNC43ODkgMzkuMjA3LTEzLjU4OGwzMi4yNzYgMzIuMjc1LTE1LjU4OSAxNS41ODljLTIzLjE5LTUuMzE5LTQ3LjU0MSAxLjU4MS02NC40OTEgMTguNTQxLTE2Ljk2MyAxNi45NTMtMjMuODYzIDQxLjMwNi0xOC41NDUgNjQuNDk1bC0xNS41ODkgMTUuNTg5LTMyLjI3OC0zMi4yNzhjMTguMDYyLTIyLjkxMyAxOC4wNjQtNTUuNDkxLjAwNC03OC40MDV6bTQ2LjQ5OS00Ni40OTkgMTkuOTk0LTE5Ljk5NGM0LjY5NC00LjY5MyAxMi4zMzctNC42OTIgMTcuMDM0IDBsMTkuOTkgMTkuOTljLTguMjI5IDYuMDI1LTE4LjExOCA5LjI4NC0yOC41MTEgOS4yODQtMTAuMzkyLjAwMS0yMC4yNzktMy4yNTctMjguNTA3LTkuMjh6bTMwLjUxNiA4Ny43MDVjMTAuODcyLTEwLjg3NyAyNS42MjgtMTYuNDY2IDQwLjU5Mi0xNS44NTVsLTU2LjQ1IDU2LjQ1Yy0uNjEyLTE0Ljk2NCA0Ljk3OC0yOS43MjIgMTUuODU4LTQwLjU5NXptODAuMDgtNTUuMzQ0LTYyLjk2NS02Mi45NjVjLTEwLjU1LTEwLjUzNi0yNy43MDUtMTAuNTM0LTM4LjI0My4wMDRsLTk3LjE4IDk3LjE4Yy0xMC41MzggMTAuNTM4LTEwLjU0IDI3LjY5MyAwIDM4LjI0Nmw2Mi45NjIgNjIuOTYyLTU4LjY2MyA1OC42NjNjLTE5LjY5MS0yOS44LTMwLjA1Ni02NC4zMTYtMzAuMDU2LTEwMC4zNjggMC0xMDAuNTk4IDgxLjg0Mi0xODIuNDQgMTgyLjQ0LTE4Mi40NCAzNi4wNTIgMCA3MC41NjcgMTAuMzY1IDEwMC4zNjcgMzAuMDU2eiIvPjwvZz48L3N2Zz4=" width="30%"/>
+                            <h3>Akses Gratis</h3>
+                            <p>Layanan dari <span>Unsika-ON</span> gratis selamanya seumur hidup, langsung daftar sekarang!</p>
+                        </section>
+                    </div>
+                </div>
+                <div id="kegiatan" class="card2 flex-container clearfix">
+                    <h2>Kegiatan</h2>
+                    <article class="card3 right-align">
+                        <h3 id="seminar">Seminar Industrial Engineering Scientific Fest 2021</h3>
+                        <img src="assets/images/seminar.png" alt="Seminar" class="thumbnail-img">
+                        <p>HMTI FT UNSIKA PROUDLY PRESENT <br>
+                        INDUSTRIAL ENGINEERING SCIENTIFIC FEST 2021<br>
+                        WEBINAR 2021<br>
+                        Dengan tema “Meningkatkan SDM dalam Bidang Pendidikan, Kesehatan, dan Ekonomi di Era New Normal”<br>
+                            Pemateri:<br>
+                        1. Ir. H. Uyunk Rommy Zulkarnain, MBA (Komite Tetap Perdagangan dalam Negeri Kamar Dagang dan Industri Kota Bandung)<br>
+                        2. Dody Mulyadi, S.T. (Sr Executive HRD PT. Genting Plantations Nusantara)</p>
+                            <a href="#" class="join">Ikutan!</a>
+                    </article>
+                    <article class="card3 left-align">
+                        <h3>Pengenalan Kehidupan Kampus Mahasiswa Baru Unsika 2021</h3>
+                        <img src="assets/images/pkkmb.png" alt="PKKMB" class="thumbnail-img">
+                        <p>
+                            PKKMB (Pengenalan Kehidupan Kampus Mahasiswa Baru) yang pada jaman dulu dikenal dengan nama OSPEK adalah kegiatan awal bagi setiap mahasiswa baru yang ada di semua kampus perguruang tingi di seluruh indonesia, kegiatan ini bertujuan untuk memperkenalkan kehidupan kampus kepada mahasiswa baru.<br>
+                            Kegiatan PKKMB ini diselenggarakan sesuai dengan surat edaran kemenristekdikti No.253/B/SE/VIII/2016 tentang Pengenalan Kehidupan Kampus Mahasiswa Baru. PKKMB diisi dengan materi tentang pengenalan kehidupan kampus baik akademik maupun non akademik disertai wawasan kebangsaan, kesadaran bela negara, pencegahan, penanggulangan dan penyalahgunaan narkoba, serta meredam radikalisme dengan metode yang tepat,  penyelenggaraan PKKMB difokuskan pada upaya pendewasaan dan pembelajaran dengan tertib dan tidak ada kekerasan verbal, fisik maupun mental.
+                        </p>
+                            <a href="#" class="join">Ikutan!</a>
+                    </article>
+                    <article class="card3 border right-align">
+                        <h3>LDKM & Inaugurasi Fakultas Teknik</h3>
+                        <img src="assets/images/ldkm.png" alt="LDKM" class="thumbnail-img">
+                        <p>
+                            Hello Calon Engineer!<br>
+                            Sudah siap dengan LDKM Fakultas TEKNIK UNSIKA 2021?<br>
+                            Latihan Dasar Kepemimpinan Mahasiswa (LDKM) merupakan miniatur dari pembinaan intektual, mental dan spiritual karena pembinaan yang intensif dan kontinyu tentang hal tersebut adalah melalui jalur perkuliahan yang berlangsung bertahun-tahun. Kegiatan LDKM dapat dijadikan media untuk membentuk mental yang sehat pada mahasiswa. Dengan demikian kredibilitas dan eksitensi mahasiswa akan selalu menjadi rahmat bagi lingkungannya karena mahasiswa menjadi sosok yang ideal di tengah masyarakat. 
+                        </p>
+                            <a href="#" class="join">Ikutan!</a>
+                    </article>
+                </div>
+                <div id="blog" class="card2 flex-container clearfix">
+                    <h2>Blog Mahasiswa</h2>
+                    <section class="card3 right-align">
+                        <h3><a href="#" class="blog-title">Kamu Maba? Persiapkan ini!</a></h3>
+                        <p>Apakah Anda sekarang telah menjadi Mahasiswa Baru? Atau baru mau menjadi seorang Mahasiswa? Apapun itu artinya Anda sudah memasuki dunia baru, dari masa Anda sebelumnya. Anda akan merasakan atmosfer yang berbeda, dari status Anda yang sekarang yaitu menjadi Mahasiswa Baru. Anda harus dapat merubah diri Anda, menjadi lebih dewasa dari sebelumnya. <a href="#" class="blog-title">Lanjutkan Membaca...</a></p>
+                    </section>
+                    <section class="card3 left-align">
+                        <h3><a href="#" class="blog-title">Bagaimana Etika Menghubungi Dosen Melalui Telepon?</a></h3>
+                        <p>Sebagai mahasiswa di suatu perguruan tinggi, peranan dosen dalam membimbing tugas atau project yang sedang kita kerjakan memang sangat menentukan. Apalagi kalau sudah berhubungan dengan yang namanya tugas akhir/skripsi/tesis. Rasanya kebutuhan akan bimbingan dosen tiba-tiba saja meningkat luar biasa. <a href="#" class="blog-title"> Lanjutkan Membaca...</a></p>
+                    </section>
+                </div>
+                <div id="tentangkami" class="card2 flex-container clearfix">
+                    <h2>Tentang Kami</h2>
+
+                    <section>
+                        <p>Unsika Organization Network atau yang disingkat dengan Unsika-ON merupakan website portal mahasiswa pertama di Unsika karya mahasiswa Universitas Singaperbangsa Karawang. Unsika-ON mempunyai cita-cita untuk memudahkan mahasiswa Unsika untuk menyebarkan event kampus yang diselenggarakan organisasi mahasiswa (ormawa) Unsika dengan mudah dan jangkauan peserta yang lebih luas tanpa terkecuali. Selain itu, dengan fitur blog pada Unsika-ON dapat mewadahi mahasiswa untuk menuangkan ide, artikel, tulisan ilmiah, puisi dan lain-lain untuk mengasah kemampuan menulis mahasiswa Unsika. Semua akses di Unsika-ON gratis, jadi ayo daftar sekarang!</p><br>
+                        <a href="#daftar" class="register">Daftar Sekarang</a>
+                    </section>
+                </div>
+            </div>
+            
+            <aside id="daftar" class="card2 login">
+                <h2>Masuk</h2>
+                <form>
+                    <input type="email" id="email" name="email" placeholder="Masukan email atau username"><br>
+                    <input type="password" id="password" name="password" placeholder="Password"><br>
+                    <input type="submit" value="Login" class="login-button"><br>
+                    <br>
+                    <span>Belum punya akun?</span><br>
+                    <input type="submit" value="Daftar Sekarang" class="register">
+                </form>
+                <h3>Pengembang</h3>
+                <section>
+                    <img src="assets/images/profile-photo.png" class="profile-photo">
+                    <h4>Haudhi Alfi Yasin</h4>
+                    <p><span class="detailabout">Student ID: </span>C3142809</p>
+                    <p><span class="detailabout">University: </span>Universitas Singaperbangsa Karawang</p>
+                </section>
+            </aside>
+        </main>
+        <footer>
+            <p> &copy; Copyright Unsika-ON 2021</p>
+        </footer>
+        <script src="assets/styles/dropdown.js"></script>
+    </body>
+</html>
